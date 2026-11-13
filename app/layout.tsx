@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://votre-projet.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://location-materiel-tp.vercel.app/";
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 
